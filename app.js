@@ -27,9 +27,9 @@ io.on("connection", function (socket) {
 //     res.end("<h1> Welcome to Home Page </h1>");
 // })
 
-app.get("/", function (req, res) {
-    res.end("<h1>Welcome to home Page</h1>");
-})
+// app.get("/", function (req, res) {
+//     res.end("<h1>Welcome to home Page</h1>");
+// })
 
 //connection
 let port = process.env.PORT || 3000;
