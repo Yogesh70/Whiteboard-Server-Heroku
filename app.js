@@ -31,6 +31,9 @@ io.on("connection", function (socket) {
 //     res.end("<h1>Welcome to home Page</h1>");
 // })
 
+  // By default => index.html
+  // Expose => client folder
+app.use(express.static("Client"));
 //connection
 let port = process.env.PORT || 3000;
 httpServer.listen(port, function () {
