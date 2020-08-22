@@ -33,7 +33,7 @@ io.on("connection", function (socket) {
 
   // By default => index.html
   // Expose => client folder
-// app.use(express.static("Client"));
+app.use(express.static("Client"));
 //connection
 let port = process.env.PORT || 3000;
 httpServer.listen(port, function () {
